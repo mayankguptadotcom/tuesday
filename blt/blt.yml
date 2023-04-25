@@ -1,2 +1,14 @@
 project:
-  machine_name: project
+  machine_name: my_blt_site
+  prefix: BLT
+  human_name: 'My BLT site'
+  profile:
+    name: standard
+  local:
+    hostname: my-blt-site
+git:
+  default_branch: tuesday
+  remotes:
+    cloud: 'eemgupta@svn-45062.prod.hosting.acquia.com:eemgupta.git'
+cm:
+  strategy: config-split
